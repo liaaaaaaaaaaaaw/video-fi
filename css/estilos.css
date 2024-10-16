@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    color: white;
+    width: 100%;
+    background: url(../img/fondo.jpg) fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+    color: white;
+}
+.logo{
+    background:url(../img/images-removebg-preview.png) no-repeat 80% 80%;
+    background-size: contain;
+    width: 280px;
+    height: 155px;
+    float: left; 
+}
+.menu{
+    position: fixed;
+    right: 50px;
+    margin-top:0px ;
+}
+.menu2{
+    position: fixed;
+    right: 50px;
+    margin-top:100px ;
+}
+.menu a{
+    margin-left: 50px;
+    font-size: 34px;
+    color:whitesmoke;
+    text-decoration: none;
+    font-weight: 600;
+}
+.menu2 a{
+    margin-left: 50px;
+    font-size: 34px;
+    color:whitesmoke;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.menu a:hover{
+    color: darkgreen;
+}
+.menu2 a:hover{
+    color: darkgreen;
+}
+nav{
+    position: fixed;
+    height: 150px;
+    top: 0;
+    align-items: center;
+    background: black;
+    width: 100%;
+}
+.texto{
+    margin-top: 160px;
+    margin-left: 10px;
+    
+      
+}
+.ti{
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+p{
+    color: whitesmoke;
+    font-family: "Devonshire", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+      
+}
